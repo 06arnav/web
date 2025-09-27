@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnav Agrawal - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <!-- Swapping Poppins for a monospaced "hacker" font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scanline effect overlay -->
+    <div class="scanline-overlay"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo neon-text">Arnav Agrawal</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <!-- The h1 will be populated by the typing script -->
+                <h1 class="typing-text"></h1>
+                <p>// Tech Enthusiast & AIML Student</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="cards-container">
+                <!-- Card 1: Personal Details -->
+                <div class="card hidden">
+                    <i class="fas fa-user-circle card-icon"></i>
+                    <h3>Personal Details</h3>
+                    <p><strong>Born:</strong> 30th April 2006</p>
+                    <p><strong>Location:</strong> Currently living in Pune</p>
+                </div>
+
+                <!-- Card 2: Academics -->
+                <div class="card hidden" id="academics">
+                    <i class="fas fa-graduation-cap card-icon"></i>
+                    <h3>Academics</h3>
+                    <p><strong>Institute:</strong> Symbiosis Institute of Technology (SIT), Pune</p>
+                    <p><strong>Degree:</strong> B.Tech in Artificial Intelligence & Machine Learning (AIML)</p>
+                </div>
+
+                <!-- Card 3: Interests -->
+                <div class="card hidden">
+                    <i class="fas fa-laptop-code card-icon"></i>
+                    <h3>Interests</h3>
+                    <p>Passionate about learning new technologies and applying them to solve real-world problems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI & Interests Section -->
+    <section class="ai-section" id="interests">
+        <div class="container">
+            <h2>Exploring the World of AI</h2>
+            <p class="section-subtitle">A carousel of technologies I'm passionate about.</p>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <!-- AI Card 1 -->
+                    <div class="card-ai hidden">
+                        <i class="fas fa-brain card-icon"></i>
+                        <h3>Deep Learning</h3>
+                        <p>Exploring neural networks and architectures like CNNs and RNNs to solve complex pattern recognition problems.</p>
+                    </div>
+                    <!-- AI Card 2 -->
+                    <div class="card-ai hidden">
+                        <i class="fas fa-language card-icon"></i>
+                        <h3>Natural Language Processing</h3>
+                        <p>Fascinated by how machines can understand, interpret, and generate human language. Working with transformers and text data.</p>
+                    </div>
+                    <!-- AI Card 3 -->
+                    <div class="card-ai hidden">
+                        <i class="fas fa-eye card-icon"></i>
+                        <h3>Computer Vision</h3>
+                        <p>Diving into image recognition, object detection, and semantic segmentation to give machines the power of sight.</p>
+                    </div>
+                    <!-- AI Card 4 -->
+                    <div class="card-ai hidden">
+                        <i class="fas fa-robot card-icon"></i>
+                        <h3>Reinforcement Learning</h3>
+                        <p>Learning about agent-based systems that make intelligent decisions to maximize rewards, the core of game AI and robotics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <p>Get in touch with me on</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/hey.arnav6" target="_blank" class="social-link"><i class="fab fa-instagram"></i> @hey.arnav6</a>
+                <a href="https://www.linkedin.com/in/arnav-agrawal" target="_blank" class="social-link"><i class="fab fa-linkedin"></i> Arnav Agrawal</a>
+            </div>
+            <p class="copyright">&copy; 2024 Arnav Agrawal. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
